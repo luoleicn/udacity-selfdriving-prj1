@@ -30,3 +30,24 @@ One potential shortcoming would be what would happen when some noise occurs in t
 ### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to use momentum（An optimization method used in neutral network）to make the result more stable.
+
+### 4. reviews from udacity
+
+Good work describing your current pipeline and figuring out some potential shortcomings and possible improvements.
+
+Whereas more possible improvements are:
+
++ Image from infrared camera.
++ Adding an outlier reduction approach like RANSAC on the hough lines.
++ Using curve fitting to plot the curve instead of straight lines.
+
+Furthermore, the following changes that might help you in certain conditions like curved lanes, shadows etc.
+
++ Increasing min_line_len and max_line_gap for Hough Transform close to 100 will make your lines longer.
++ You took kernel-size of the Gaussian filter as 5, decreasing this will remove the noise making the image less blurry.
+
+Congratulations for passing this project!
+
+Good luck with future submissions :)
+
+
