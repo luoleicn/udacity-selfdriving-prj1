@@ -31,7 +31,7 @@ One potential shortcoming would be what would happen when some noise occurs in t
 
 A possible improvement would be to use momentum（An optimization method used in neutral network）to make the result more stable.
 
-### 4. reviews from udacity
+### 4. Reviews from udacity
 
 Good work describing your current pipeline and figuring out some potential shortcomings and possible improvements.
 
